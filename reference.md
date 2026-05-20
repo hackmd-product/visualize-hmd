@@ -35,23 +35,6 @@
 }
 ```
 
-Dark mode equivalents (use inside `<style data-theme="dark">`):
-
-```css
-body {
-  --text-emphasis:    #f4f4f5;
-  --text-default:     #d4d4d8;
-  --text-subtle:      #a1a1aa;
-  --bg-page:          #1e1e20;
-  --bg-surface:       #2a2a2d;
-  --bg-soft:          #333336;
-  --border:           #3a3a3d;
-  --primary:          #a3c287;
-  --primary-soft:     #1e2a1a;
-  --primary-strong:   #c2d9a8;
-}
-```
-
 ---
 
 ## Layout patterns
@@ -320,7 +303,6 @@ details[open] { background: var(--bg-surface); }
 | Feature | Supported |
 |---|---|
 | `<style>` tags | ✅ |
-| `<style data-theme="dark/light">` | ✅ (requires Custom CSS mode on reader's end) |
 | CSS Grid / Flexbox | ✅ |
 | CSS custom properties | ✅ |
 | `@import` (Google Fonts) | ✅ |
