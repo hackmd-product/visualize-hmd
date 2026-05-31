@@ -300,9 +300,11 @@ details[open] { background: var(--bg-surface); }
 
 ## HackMD rendering constraints
 
+**Custom CSS preview required:** After opening a published note, click the **paintbrush icon** (tooltip: "Select theme to preview") and select **Custom CSS**. HackMD does not apply embedded `<style>` blocks until this preview mode is enabled.
+
 | Feature | Supported |
 |---|---|
-| `<style>` tags | ✅ |
+| `<style>` tags | ✅ (requires Custom CSS preview) |
 | CSS Grid / Flexbox | ✅ |
 | CSS custom properties | ✅ |
 | `@import` (Google Fonts) | ✅ |

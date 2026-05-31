@@ -76,6 +76,8 @@ hackmd-cli notes create \
 
 After creation, open `https://hackmd.io/<noteId>` (My workspace).
 
+**Enable Custom CSS preview:** Click the **paintbrush icon** in the toolbar (tooltip: "Select theme to preview") and choose **Custom CSS**. Embedded `<style>` blocks do not apply until this is on—the note will look unstyled otherwise.
+
 ### REST API
 
 ```bash

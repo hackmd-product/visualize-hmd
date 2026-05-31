@@ -131,6 +131,16 @@ hackmd_create_note(
 
 After creation, report the URL to the user: `https://hackmd.io/<noteId>`
 
+## Step 6 — Remind user to enable Custom CSS preview
+
+HTML/CSS visualizations embed styles in `<style>` blocks. HackMD applies those styles only when **Custom CSS** preview is enabled.
+
+After returning the note URL, **always** remind the user:
+
+> Open the note, click the **paintbrush icon** in the toolbar (tooltip: "Select theme to preview"), and choose **Custom CSS** to see the visualization styled correctly.
+
+Without this step, the note renders as unstyled markup. Do not skip this reminder for HTML visualizations.
+
 ---
 
 ## Why blank lines break HackMD rendering
